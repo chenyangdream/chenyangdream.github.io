@@ -4,7 +4,7 @@
   <title><![CDATA[陈阳的技术博客]]></title>
   <link href="http://chenyangdream.github.io/atom.xml" rel="self"/>
   <link href="http://chenyangdream.github.io/"/>
-  <updated>2015-03-03T15:41:23+08:00</updated>
+  <updated>2015-03-03T15:45:00+08:00</updated>
   <id>http://chenyangdream.github.io/</id>
   <author>
     <name><![CDATA[陈阳]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[我的第一篇Octopress博客]]></title>
-    <link href="http://chenyangdream.github.io/blog/2015/03/03/my-first-octopress-blog/"/>
+    <link href="http://chenyangdream.github.io/blog/20150303/my-first-octopress-blog.html"/>
     <updated>2015-03-03T14:15:13+08:00</updated>
-    <id>http://chenyangdream.github.io/blog/2015/03/03/my-first-octopress-blog</id>
+    <id>http://chenyangdream.github.io/blog/20150303/my-first-octopress-blog</id>
     <content type="html"><![CDATA[<p>hello</p>
 ]]></content>
   </entry>
