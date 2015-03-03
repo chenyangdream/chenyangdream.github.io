@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Chen Yang Blog]]></title>
+  <title><![CDATA[陈阳的技术博客]]></title>
   <link href="http://chenyangdream.github.io/atom.xml" rel="self"/>
   <link href="http://chenyangdream.github.io/"/>
-  <updated>2015-03-03T14:27:32+08:00</updated>
+  <updated>2015-03-03T14:45:00+08:00</updated>
   <id>http://chenyangdream.github.io/</id>
   <author>
     <name><![CDATA[Chen Yang]]></name>
