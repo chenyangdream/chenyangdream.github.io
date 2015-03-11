@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[分类：ffmpeg | 陈阳的技术博客]]></title>
+  <link href="http://chenyangdream.github.io/blog/categories/ffmpeg/atom.xml" rel="self"/>
+  <link href="http://chenyangdream.github.io/"/>
+  <updated>2015-03-11T17:07:59+08:00</updated>
+  <id>http://chenyangdream.github.io/</id>
+  <author>
+    <name><![CDATA[陈阳]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ffmpeg支持h265安装教程]]></title>
+    <link href="http://chenyangdream.github.io/blog/20150312/ffmpeg-h265.html"/>
+    <updated>2015-03-12T01:00:43+08:00</updated>
+    <id>http://chenyangdream.github.io/blog/20150312/ffmpeg-h265</id>
+    <content type="html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#mercurial">1.安装mercurial</a></li>
+  <li><a href="#x265">2.安装x265</a></li>
+  <li><a href="#ffmpeg">3.编译ffmpeg</a></li>
+</ul>
+
+<h2 id="mercurial">1.安装mercurial</h2>
+<pre><code>wget http://mercurial.selenic.com/release/mercurial-2.6.1.tar.gz
+tar -zxvf mercurial-2.6.1.tar.gz  
+yum -y install python-devel.x86_64
+yum -y install python-docutils 
+cd mercurial-2.6.1
+make install
+</code></pre>
+
+<h2 id="x265">2.安装x265</h2>
+<pre><code>hg clone https://bitbucket.org/multicoreware/x265
+cd x265/build/linux
+./make-Makefiles.bash
+make &amp;&amp; make install 其中cmake版本要高于2.8.8
+</code></pre>
+
+<h2 id="ffmpeg">3.编译ffmpeg</h2>
+<pre><code>./configure --prefix=/usr/local/ --enable-gpl --enable-version3 --enable-nonfree --enable-shared --enable-zlib --enable-bzlib --enable-libfaac --enable-libmp3lame --enable-libtheora --enable-libvo-aacenc --enable-libvorbis --enable-libx264 --enable-libx265 --enable-libxvid --enable-pic --enable-pthreads --enable-pic --enable-openssl --enable-libtwolame 
+</code></pre>
+
+<p>报错x256 not found
+<img src="/images/x265notfound.png"></p>
+
+<p>查看config.log文件最后一行
+<img src="/images/configlog.png"></p>
+
+<p>到x265编译目录x265/build/linux将x265.pc文件复制到/usr/local/lib
+然后修改/etc/profile中的环境变量PKG_CONFIG_PATH
+<img src="/images/profile.png"></p>
+
+<p>运行pkg-config –list-all 查看x265
+<img src="/images/checkh265.png"></p>
+
+<p>运行ffmpeg
+<img src="/images/runffmpeg.png"></p>
+]]></content>
+  </entry>
+  
+</feed>
