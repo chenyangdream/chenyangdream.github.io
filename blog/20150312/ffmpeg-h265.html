@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Ffmpeg支持h265安装教程 - 陈阳的技术博客</title>
+  <title>FFmpeg支持h265安装教程 - 陈阳的技术博客</title>
   <meta name="author" content="陈阳">
 
   
-  <meta name="description" content="1.安装mercurial 2.安装x265 3.编译ffmpeg 1.安装mercurial
-wget http://mercurial.selenic.com/release/mercurial-2.6.1.tar.gz
-tar -zxvf mercurial-2.6.1.tar.gz &hellip;">
+  <meta name="description" content="2.安装x265 3.编译ffmpeg 本文主要介绍在centos操作系统上，向FFmpeg添加h265库的方法，使FFmpeg可以针对H.265编码的视频进行转码。 ##1.安装mercurial wget http://mercurial.selenic.com/release/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -82,7 +80,7 @@ tar -zxvf mercurial-2.6.1.tar.gz &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Ffmpeg支持h265安装教程</h1>
+      <h1 class="entry-title">FFmpeg支持h265安装教程</h1>
     
     
       <p class="meta">
@@ -102,19 +100,20 @@ tar -zxvf mercurial-2.6.1.tar.gz &hellip;">
 
 
 <div class="entry-content"><ul id="markdown-toc">
-  <li><a href="#mercurial">1.安装mercurial</a></li>
   <li><a href="#x265">2.安装x265</a></li>
   <li><a href="#ffmpeg">3.编译ffmpeg</a></li>
 </ul>
 
-<h2 id="mercurial">1.安装mercurial</h2>
-<pre><code>wget http://mercurial.selenic.com/release/mercurial-2.6.1.tar.gz
-tar -zxvf mercurial-2.6.1.tar.gz  
-yum -y install python-devel.x86_64
-yum -y install python-docutils 
-cd mercurial-2.6.1
-make install
-</code></pre>
+<p>本文主要介绍在centos操作系统上，向FFmpeg添加h265库的方法，使FFmpeg可以针对H.265编码的视频进行转码。</p>
+
+<!--more-->
+<p>##1.安装mercurial
+	wget http://mercurial.selenic.com/release/mercurial-2.6.1.tar.gz
+	tar -zxvf mercurial-2.6.1.tar.gz<br />
+	yum -y install python-devel.x86_64
+	yum -y install python-docutils 
+	cd mercurial-2.6.1
+	make install</p>
 
 <h2 id="x265">2.安装x265</h2>
 <pre><code>hg clone https://bitbucket.org/multicoreware/x265
@@ -190,7 +189,7 @@ make &amp;&amp; make install 其中cmake版本要高于2.8.8
   <section>
     <h1>Comments</h1>
     <div id="comments" aria-live="polite"><!-- Duoshuo Comment BEGIN -->
-<div class="ds-thread" data-title="Ffmpeg支持h265安装教程"></div>
+<div class="ds-thread" data-title="FFmpeg支持h265安装教程"></div>
 <script type="text/javascript">
   var duoshuoQuery = {short_name:"chenyangdream"};
   (function() {
@@ -214,7 +213,7 @@ make &amp;&amp; make install 其中cmake版本要高于2.8.8
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/20150312/ffmpeg-h265.html">Ffmpeg支持h265安装教程</a>
+        <a href="/blog/20150312/ffmpeg-h265.html">FFmpeg支持h265安装教程</a>
       </li>
     
       <li class="post">
