@@ -4,7 +4,7 @@
   <title><![CDATA[陈阳的技术博客]]></title>
   <link href="http://chenyangdream.github.io/atom.xml" rel="self"/>
   <link href="http://chenyangdream.github.io/"/>
-  <updated>2015-03-11T13:30:53+08:00</updated>
+  <updated>2015-03-11T13:34:38+08:00</updated>
   <id>http://chenyangdream.github.io/</id>
   <author>
     <name><![CDATA[陈阳]]></name>
@@ -30,12 +30,12 @@
 
 <p><img src="http://chenyangdream.github.io/images/shangchuanshipin.png" /></p>
 
-<p>在上传视频时可以选择要托管的视频类型为公有视频还是私有视频 <a href="http://www.baofengcloud.com/help/faq.html">如何使用私有视频</a>。</p>
+<p>在上传视频时可以选择要托管的视频类型为公有视频还是私有视频(<a href="http://www.baofengcloud.com/help/faq.html">如何使用私有视频</a>)。</p>
 
 <p>这里我们选择公有视频，点击添加视频，选择要上传的视频，可以添加多个视频，最后点击开始上传。
 上传视频过程中，不要关闭浏览器页面，否则会暂停视频上传过程。</p>
 
-<p><img src="http://chenyangdream.github.io/images/kaishishangchun.png" /></p>
+<p><img src="http://chenyangdream.github.io/images/kaishishangchuan.png" /></p>
 
 <p>如果在上传过程中想要取消上传某些视频，也可以点击视频右侧的删除，来取消上传操作。</p>
 
@@ -68,7 +68,7 @@
 
 <p>6.在数据统计页面，可以查看用户视频空间，播放次数，流量和峰值带宽的数据信息。</p>
 
-<p><img src="http://chenyangdream.github.io/images/tongjiyemian.png" /></p>
+<p><img class="/images/tongjiyemian.png {% img" src="http://chenyangdream.github.io/images/bianjishipin.png" />%}</p>
 
 ]]></content>
   </entry>
