@@ -4,7 +4,7 @@
   <title><![CDATA[陈阳的技术博客]]></title>
   <link href="http://chenyangdream.github.io/atom.xml" rel="self"/>
   <link href="http://chenyangdream.github.io/"/>
-  <updated>2015-03-11T14:49:10+08:00</updated>
+  <updated>2015-03-11T14:56:48+08:00</updated>
   <id>http://chenyangdream.github.io/</id>
   <author>
     <name><![CDATA[陈阳]]></name>
@@ -18,7 +18,8 @@
     <link href="http://chenyangdream.github.io/blog/20150303/my-first-octopress-blog.html"/>
     <updated>2015-03-03T14:15:13+08:00</updated>
     <id>http://chenyangdream.github.io/blog/20150303/my-first-octopress-blog</id>
-    <content type="html"><![CDATA[<p>1.登录<a href="http://www.baofengcloud.com">暴风云视频</a>网站后，点击右上角<strong>管理中心</strong>，进入管理页面。</p>
+    <content type="html"><![CDATA[
+<p>1.登录<a href="http://www.baofengcloud.com">暴风云视频</a>网站后，点击右上角<strong>管理中心</strong>，进入管理页面。</p>
 
 <p><img src="http://chenyangdream.github.io/images/yuntuoguanshouye.png" /></p>
 
