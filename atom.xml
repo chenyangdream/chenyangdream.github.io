@@ -4,7 +4,7 @@
   <title><![CDATA[陈阳的技术博客]]></title>
   <link href="http://chenyangdream.github.io/atom.xml" rel="self"/>
   <link href="http://chenyangdream.github.io/"/>
-  <updated>2015-03-03T17:19:18+08:00</updated>
+  <updated>2015-03-11T11:41:48+08:00</updated>
   <id>http://chenyangdream.github.io/</id>
   <author>
     <name><![CDATA[陈阳]]></name>
@@ -14,11 +14,39 @@
 
   
   <entry>
-    <title type="html"><![CDATA[我的第一篇Octopress博客]]></title>
+    <title type="html"><![CDATA[如何使用暴风视频云托管]]></title>
     <link href="http://chenyangdream.github.io/blog/20150303/my-first-octopress-blog.html"/>
     <updated>2015-03-03T14:15:13+08:00</updated>
     <id>http://chenyangdream.github.io/blog/20150303/my-first-octopress-blog</id>
-    <content type="html"><![CDATA[<p>hello</p>
+    <content type="html"><![CDATA[<p>1.登录暴风云视频网站后，点击右上角管理中心，进入管理页面。</p>
+
+<p><img src="http://chenyangdream.github.io/images/yuntuoguanshouye.png" /></p>
+
+<p>2.在产品分类中点击进入视频云托管中心。</p>
+
+<p>3.在管理中心页面，点击上传新视频，上传要托管的视频。</p>
+
+<p>在上传视频时可以选择要托管的视频类型为公有视频还是私有视频 （如何使用私有视频）。
+这里我们选择公有视频，点击添加视频，选择要上传的视频，可以添加多个视频，最后点击开始上传。
+上传视频过程中，不要关闭浏览器页面，否则会暂停视频上传过程。</p>
+
+<p>如果在上传过程中想要取消上传某些视频，也可以点击视频右侧的删除，来取消上传操作。</p>
+
+<p>4.上传视频结束后，点击管理视频。</p>
+
+<p>5.在管理视频页面，针对每个视频可进行的操作有下载，查看代码，编辑，删除。</p>
+
+<p>点击下载，可以将视频下载回本地。
+点击代码可以查看视频调度地址，将该地址输入浏览器中会得到视频的url下载地址。</p>
+
+<p>得到视频下载地址如下图所示。</p>
+
+<p>点击编辑，可以修改视频显示名称和视频属性。</p>
+
+<p>点击删除，可以删除已经托管的视频。</p>
+
+<p>6.在数据统计页面，可以查看用户视频空间，播放次数，流量和峰值带宽的数据信息。</p>
+
 ]]></content>
   </entry>
   
