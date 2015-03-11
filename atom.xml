@@ -4,7 +4,7 @@
   <title><![CDATA[陈阳的技术博客]]></title>
   <link href="http://chenyangdream.github.io/atom.xml" rel="self"/>
   <link href="http://chenyangdream.github.io/"/>
-  <updated>2015-03-11T18:04:42+08:00</updated>
+  <updated>2015-03-11T18:07:56+08:00</updated>
   <id>http://chenyangdream.github.io/</id>
   <author>
     <name><![CDATA[陈阳]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[FFmpeg支持h265安装教程]]></title>
     <link href="http://chenyangdream.github.io/blog/20150311/ffmpeg-h265.html"/>
-    <updated>2015-03-11T00:00:00+08:00</updated>
+    <updated>2015-03-11T17:00:43+08:00</updated>
     <id>http://chenyangdream.github.io/blog/20150311/ffmpeg-h265</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#mercurial">1.安装mercurial</a></li>
@@ -69,7 +69,7 @@ make &amp;&amp; make install 其中cmake版本要高于2.8.8
   <entry>
     <title type="html"><![CDATA[如何使用暴风云托管视频]]></title>
     <link href="http://chenyangdream.github.io/blog/20150303/my-first-octopress-blog.html"/>
-    <updated>2015-03-03T00:00:00+08:00</updated>
+    <updated>2015-03-03T14:15:13+08:00</updated>
     <id>http://chenyangdream.github.io/blog/20150303/my-first-octopress-blog</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#section">1.登录暴风云视频</a></li>
@@ -79,9 +79,8 @@ make &amp;&amp; make install 其中cmake版本要高于2.8.8
   <li><a href="#section-4">6.查看数据统计</a></li>
 </ul>
 
-<p>本文主要介绍如何使用<a href="http://www.baofengcloud.com">暴风云视频</a>托管自己的视频。</p>
-
-<!--more-->
+<p>本文主要介绍如何使用<a href="http://www.baofengcloud.com">暴风云视频</a>托管自己的视频。
+<!--more--></p>
 
 <h2 id="section">1.登录暴风云视频</h2>
 <p>登录<a href="http://www.baofengcloud.com">暴风云视频</a>网站后，点击右上角<strong>管理中心</strong>，进入管理页面。</p>
