@@ -4,7 +4,7 @@
   <title><![CDATA[分类：ffmpeg | 陈阳的技术博客]]></title>
   <link href="http://chenyangdream.github.io/blog/categories/ffmpeg/atom.xml" rel="self"/>
   <link href="http://chenyangdream.github.io/"/>
-  <updated>2015-03-11T17:23:29+08:00</updated>
+  <updated>2015-03-11T18:04:42+08:00</updated>
   <id>http://chenyangdream.github.io/</id>
   <author>
     <name><![CDATA[陈阳]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[FFmpeg支持h265安装教程]]></title>
-    <link href="http://chenyangdream.github.io/blog/20150312/ffmpeg-h265.html"/>
-    <updated>2015-03-12T01:00:43+08:00</updated>
-    <id>http://chenyangdream.github.io/blog/20150312/ffmpeg-h265</id>
+    <link href="http://chenyangdream.github.io/blog/20150311/ffmpeg-h265.html"/>
+    <updated>2015-03-11T00:00:00+08:00</updated>
+    <id>http://chenyangdream.github.io/blog/20150311/ffmpeg-h265</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#mercurial">1.安装mercurial</a></li>
   <li><a href="#x265">2.安装x265</a></li>
