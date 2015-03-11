@@ -9,7 +9,7 @@
   <meta name="author" content="陈阳">
 
   
-  <meta name="description" content=" 2.安装x265 3.编译ffmpeg 本文主要介绍在centos操作系统上，向FFmpeg添加h265库的方法，使FFmpeg可以针对H.265编码的视频进行转码。 ">
+  <meta name="description" content=" 1.安装mercurial 2.安装x265 3.编译ffmpeg 本文主要介绍在centos操作系统上，向FFmpeg添加h265库的方法，使FFmpeg可以针对H.265编码的视频进行转码。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -103,6 +103,7 @@
 
 
   <div class="entry-content"><ul id="markdown-toc">
+  <li><a href="#mercurial">1.安装mercurial</a></li>
   <li><a href="#x265">2.安装x265</a></li>
   <li><a href="#ffmpeg">3.编译ffmpeg</a></li>
 </ul>
@@ -152,65 +153,13 @@
   <li><a href="#section-4">6.查看数据统计</a></li>
 </ul>
 
-<h2 id="section">1.登录暴风云视频</h2>
-<p>登录<a href="http://www.baofengcloud.com">暴风云视频</a>网站后，点击右上角<strong>管理中心</strong>，进入管理页面。</p>
-
-<p><img src="/images/yuntuoguanshouye.png" /></p>
-
-<h2 id="section-1">2.进入管理中心</h2>
-<p>在产品分类中点击<strong>进入视频云托管中心</strong>。</p>
-
-<p><img src="/images/fenleizhongxin.png" /></p>
-
-<h2 id="section-2">3.上传视频</h2>
-<p>在管理中心页面，点击<strong>上传新视频</strong>，上传要托管的视频。</p>
-
-<p><img src="/images/shangchuanshipin.png" /></p>
-
-<p>在上传视频时可以选择要托管的视频类型为公有视频还是私有视频(<a href="http://www.baofengcloud.com/help/faq.html">如何使用私有视频</a>)。</p>
-
-<p>这里我们选择公有视频，点击添加视频，选择要上传的视频，可以添加多个视频，最后点击开始上传。
-上传视频过程中，不要关闭浏览器页面，否则会暂停视频上传过程。</p>
-
-<p><img src="/images/kaishishangchuan.png" /></p>
-
-<p>如果在上传过程中想要取消上传某些视频，也可以点击视频右侧的删除，来取消上传操作。</p>
-
-<p><img src="/images/quxiaoshangchuan.png" /></p>
-
-<h2 id="section-3">4.管理视频</h2>
-<p>上传视频结束后，点击<strong>管理视频</strong>。</p>
-
-<p><img src="/images/guanlishipin.png" /></p>
-
-<p>在管理视频页面，针对每个视频可进行的操作有<strong>下载</strong>，查看<strong>代码</strong>，<strong>编辑</strong>，<strong>删除</strong>。</p>
-
-<p><img src="/images/guanliyemian.png" /></p>
-
-<p>点击<strong>下载</strong>，可以将视频下载回本地。
-点击<strong>代码</strong>可以查看视频调度地址，将该地址输入浏览器中会得到视频的url下载地址。</p>
-
-<p><img src="/images/shipindaima.png" /></p>
-
-<p>得到视频下载地址如下图所示。</p>
-
-<p><img src="/images/xiazaidizhi.png" /></p>
-
-<p>点击<strong>编辑</strong>，可以修改视频显示名称和视频属性。</p>
-
-<p><img src="/images/bianjishipin.png" /></p>
-
-<p>点击<strong>删除</strong>，可以删除已经托管的视频。</p>
-
-<p><img src="/images/shanchushipin.png" /></p>
-
-<h2 id="section-4">6.查看数据统计</h2>
-<p>在数据统计页面，可以查看用户视频空间，播放次数，流量和峰值带宽的数据信息。</p>
-
-<p><img class="/images/tongjiyemian.png {% img" src="/images/bianjishipin.png" /></p>
-
+<p>本文主要介绍如何使用<a href="http://www.baofengcloud.com">暴风云视频</a>托管自己的视频。
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/20150303/my-first-octopress-blog.html">阅读全文</a>
+    </footer>
   
 
 

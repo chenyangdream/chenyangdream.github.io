@@ -4,7 +4,7 @@
   <title><![CDATA[陈阳的技术博客]]></title>
   <link href="http://chenyangdream.github.io/atom.xml" rel="self"/>
   <link href="http://chenyangdream.github.io/"/>
-  <updated>2015-03-11T17:20:46+08:00</updated>
+  <updated>2015-03-11T17:23:29+08:00</updated>
   <id>http://chenyangdream.github.io/</id>
   <author>
     <name><![CDATA[陈阳]]></name>
@@ -19,6 +19,7 @@
     <updated>2015-03-12T01:00:43+08:00</updated>
     <id>http://chenyangdream.github.io/blog/20150312/ffmpeg-h265</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#mercurial">1.安装mercurial</a></li>
   <li><a href="#x265">2.安装x265</a></li>
   <li><a href="#ffmpeg">3.编译ffmpeg</a></li>
 </ul>
@@ -26,13 +27,15 @@
 <p>本文主要介绍在centos操作系统上，向FFmpeg添加h265库的方法，使FFmpeg可以针对H.265编码的视频进行转码。</p>
 
 <!--more-->
-<p>##1.安装mercurial
-	wget http://mercurial.selenic.com/release/mercurial-2.6.1.tar.gz
-	tar -zxvf mercurial-2.6.1.tar.gz<br />
-	yum -y install python-devel.x86_64
-	yum -y install python-docutils 
-	cd mercurial-2.6.1
-	make install</p>
+
+<h2 id="mercurial">1.安装mercurial</h2>
+<pre><code>wget http://mercurial.selenic.com/release/mercurial-2.6.1.tar.gz
+tar -zxvf mercurial-2.6.1.tar.gz  
+yum -y install python-devel.x86_64
+yum -y install python-docutils 
+cd mercurial-2.6.1
+make install
+</code></pre>
 
 <h2 id="x265">2.安装x265</h2>
 <pre><code>hg clone https://bitbucket.org/multicoreware/x265
@@ -75,6 +78,9 @@ make &amp;&amp; make install 其中cmake版本要高于2.8.8
   <li><a href="#section-3">4.管理视频</a></li>
   <li><a href="#section-4">6.查看数据统计</a></li>
 </ul>
+
+<p>本文主要介绍如何使用<a href="http://www.baofengcloud.com">暴风云视频</a>托管自己的视频。
+<!--more--></p>
 
 <h2 id="section">1.登录暴风云视频</h2>
 <p>登录<a href="http://www.baofengcloud.com">暴风云视频</a>网站后，点击右上角<strong>管理中心</strong>，进入管理页面。</p>
