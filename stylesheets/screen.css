@@ -12,8 +12,6 @@ Error: Invalid CSS after "...coderay-github"": expected selector or at-rule, was
 17:   content: "本页目录";
 18:   font-weight: bold;
 19: }
-20: 
-21: .blog-index #markdown-toc {
 
 Backtrace:
 D:/octopress/sass/custom/_styles.scss:16
@@ -67,4 +65,4 @@ D:/Ruby21/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...coderay-github\"\": expected selector or at-rule, was \"#markdown-toc:b...\"\A         on line 16 of D:/octopress/sass/custom/_styles.scss\A         from line 10 of D:/octopress/sass/screen.scss\A \A 11:         width: auto;\A 12: }\A 13: \A 14: @import \"coderay-github\"\A 15: \A 16: #markdown-toc:before {\A 17:   content: \"本页目录\";\A 18:   font-weight: bold;\A 19: }\A 20: \A 21: .blog-index #markdown-toc {"; }
+  content: "Error: Invalid CSS after \"...coderay-github\"\": expected selector or at-rule, was \"#markdown-toc:b...\"\A         on line 16 of D:/octopress/sass/custom/_styles.scss\A         from line 10 of D:/octopress/sass/screen.scss\A \A 11:         width: auto;\A 12: }\A 13: \A 14: @import \"coderay-github\"\A 15: \A 16: #markdown-toc:before {\A 17:   content: \"本页目录\";\A 18:   font-weight: bold;\A 19: }"; }
